@@ -1,0 +1,13 @@
+Technologies[edit]
+WaveMaker is built on the following frameworks and technologies:[10]
+
+Front-end: AngularJS, Bootstrap, NVD3
+Back-end: Hibernate, Spring, Spring Security
+Tomcat, Java, MySQL
+Docker containerization for application deployment
+
+A child bean definition uses the bean class from the parent definition if none is specified, but can also override it. In the latter case, the child bean class must be compatible with the parent, that is, it must accept the parent’s property values.
+
+A child bean definition inherits scope, constructor argument values, property values, and method overrides from the parent, with the option to add new values. Any scope, initialization method, destroy method, and/or static factory method settings that you specify will override the corresponding parent settings.
+
+The remaining settings are always taken from the child definition: depends on, autowire mode, dependency check, singleton, lazy init.
